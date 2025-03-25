@@ -1,0 +1,7 @@
+default-timeout=5000
+
+max-history=5
+
+
+[mode=dnd]
+invisible=1
