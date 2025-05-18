@@ -132,9 +132,12 @@ button:hover {
   margin-right: 0;
 }
 
-/* #clock {
-  background-color: #64727d;
+#custom-mako,
+#clock {
+  color: #d65d0e;
 }
+
+/*
 
 #battery {
   background-color: #ffffff;

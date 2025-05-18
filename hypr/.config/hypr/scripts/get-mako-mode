@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Toggle DND
 	if [ "$(makoctl mode)" == "dnd" ]; then
 	# DND IS ON
-		echo " "
+		echo "{\"alt\": \"enabled\"}"
 	else
 	# DND IS OFF
-		echo " "
+		echo "{\"alt\": \"disabled\"}"
 	fi

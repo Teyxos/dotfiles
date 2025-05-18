@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Toggle DND
 	if [ "$(makoctl mode)" == "dnd" ]; then
