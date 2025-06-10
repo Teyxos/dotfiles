@@ -15,12 +15,17 @@ Item {
     Text {
         id: indicator
 
-        // animate: true
         readonly property string label: "  "
         readonly property string activeLabel: "󰮯 "
 
         anchors.centerIn: parent
         text: Hyprland.focusedWorkspace.id === root.ws ? activeLabel : label
+        color: Hyprland.focusedWorkspace.id === root.ws ? "red" : "black"
+
+        font {
+            pixelSize: Hyprland.focusedWorkspace.id === root.ws ? 14 : 10
+        }
+
     }
 
 }

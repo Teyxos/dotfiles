@@ -1,5 +1,5 @@
 import QtQuick
-import "root:util"
+import "root:services"
 
 Text {
     // A property the creator of this type is required to set.

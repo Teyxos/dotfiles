@@ -2,11 +2,12 @@ import QtQuick
 import QtQuick.Layouts
 import Quickshell
 import Quickshell.Io
-import "widgets"
-import "workspaces"
+import "components/systray"
+import "components/widgets"
+import "components/workspaces"
 
-// Prob need to go with a dual row layout to make it be able to center better
-// Also need to work out buttons and tooltips (this is gonna end up so cool!)
+// TODO Prob need to go with a dual row layout to make it be able to center better
+// TODO Also need to work out buttons and tooltips (this is gonna end up so cool!)
 Variants {
     model: Quickshell.screens
 
@@ -29,10 +30,16 @@ Variants {
             anchors.fill: parent
             spacing: 0
 
+            OSIcon {
+            }
+
             Workspaces {
             }
 
             ClockWidget {
+            }
+
+            SysTray {
             }
 
         }

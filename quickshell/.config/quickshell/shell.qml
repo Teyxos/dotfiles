@@ -1,6 +1,8 @@
+//@ pragma UseQApplication
+
 import QtQuick // for Text
 import Quickshell // for PanelWindow
-import "components"
+import "modules/bar"
 
 ShellRoot {
     Bar {
