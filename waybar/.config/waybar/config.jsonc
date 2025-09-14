@@ -25,7 +25,7 @@
     // "backlight",
     // "keyboard-state",
     // "sway/language",
-    // "battery",
+    "battery",
     // "battery#bat2",
     // "clock",
 
@@ -144,10 +144,10 @@
       "warning": 30,
       "critical": 15
     },
-    "format": "{icon} {capacity}%",
+    "format": "{icon}   {capacity}%",
     "format-charging": "<span color='#a6d189'>󱐋</span>",
-    "format-plugged": "{capacity}% ",
-    "format-alt": "{time} {icon}",
+    "format-plugged": "   {capacity}%",
+    "format-alt": "{time}   {icon}",
     // "format-good": "", // An empty format will hide the module
     // "format-full": "",
     "format-icons": ["", "", "", "", "", "", "", ""]
