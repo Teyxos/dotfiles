@@ -7,6 +7,6 @@ insensitive = false
 allow_markup = true
 allow_images = true
 line_wrap = word
-lines = 16
+# lines = 16 Temp fix as lines seems to be broken
 no_actions = true
 hide_scroll = true
